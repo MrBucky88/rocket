@@ -13,6 +13,7 @@ header{
     flex-direction: row;
     justify-content:  space-around;
     font-family: Goldman;
+    padding: 1%;
 
 }
 
@@ -23,7 +24,7 @@ body{
 }
 
 .logo{
-    font-size: 50;
+    font-size: 20px;
     display: flex;
     align-content: center;
     padding: 5px;
@@ -74,6 +75,17 @@ p{
     color: white;
     display:flex;
     justify-content: space-around;
+    font-size: 25px;
+
+
+}
+
+
+.secart{
+    background-color: rgb(25, 18, 31);
+    font-family: ubuntu;
+    color: white;
+    display:flex;
     font-size: 25px;
 
 
@@ -137,19 +149,20 @@ a{
 }
 
 .logo2{
-    font-size: 50;
+    font-size: 20px;
     display: flex;
     align-content: center;
     padding: 5px;
 }
 
-.header2{
-    background-color: #291740 ;
-    position: fixed;
-    top: 0;
-    left: 0;
+
+.mainheder{
     display: flex;
     flex-direction: row;
-    justify-content:  space-around;
-    font-family: Goldman;
+    justify-content: center;
+}
+
+.blokk{
+    height: 20px;
+    background-color: rgb(25, 18, 31);
 }
