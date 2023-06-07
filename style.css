@@ -19,7 +19,8 @@ header{
 
 body{
     background-image: url(sources/images/bg.png);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(37, 26, 46);
 
 }
 
@@ -82,12 +83,15 @@ p{
 
 
 .secart{
-    background-color: rgb(25, 18, 31);
     font-family: ubuntu;
     color: white;
     display:flex;
     font-size: 25px;
-
+    margin: 10%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.602);
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -165,4 +169,29 @@ a{
 .blokk{
     height: 20px;
     background-color: rgb(25, 18, 31);
+}
+
+.uwaga{
+    font-size: 12px;
+}
+
+.poster{
+    width: 220px;
+    height: 343px;
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rond{
+    border-radius: 8px;
 }
