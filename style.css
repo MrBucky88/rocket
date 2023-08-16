@@ -4,6 +4,7 @@ h2{
     font-family: goldman;
 }
 
+
 header{
     background-color: #291740 ;
     position: fixed;
@@ -13,7 +14,7 @@ header{
     flex-direction: row;
     justify-content:  space-around;
     font-family: Goldman;
-    padding: 1%;
+    padding: 2%;
 
 }
 
@@ -194,6 +195,12 @@ a{
 
 .rond{
     border-radius: 8px;
+    
+
+}
+
+.rond:hover{
+    animation: ronds 2s;
 }
 
 .pejdz{
@@ -206,4 +213,80 @@ a{
     border-radius: 8px;
     width: 150px;
     height: 60px;
+    
 }
+
+.baton:hover{
+    animation: batons 2s 
+}
+
+.aton{
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aton:hover{
+    animation: atons 2s 
+}
+
+.recommendation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.recmovie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.desc{
+    font-size: 15px;
+}
+
+@keyframes batons{
+    0%{
+        width: 150px;
+        height: 60px;
+    }
+
+    100%{
+        width: 140px;
+        height: 50px;
+    }
+}
+
+@keyframes atons{
+    0%{
+        width: 130px;
+        height: 40px;
+    }
+
+    100%{
+        width: 120px;
+        height: 30px;
+    }
+
+}
+
+@keyframes ronds{
+    0%{
+        width: 40px;
+        height: 20px;
+    }
+
+    100%{
+        width: 60px;
+        height: 40px;
+    }
+
+}
+
+
