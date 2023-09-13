@@ -289,4 +289,7 @@ a{
 
 }
 
-
+.news{
+    border-radius: 8px;
+    background-color: #523082;
+}
